@@ -7,7 +7,7 @@ RUN apt-get update --fix-missing && apt-get upgrade -y && DEBIAN_FRONTEND=nonint
     libssl-dev libsasl2-2 libsasl2-dev libsasl2-modules swig \
     python3 python3-dev python3-pip ruby-dev python3-qpid-proton \
     build-essential vim tree netcat pkg-config openssl libssl-dev \
-    libffi-dev python-gevent gunicorn git
+    libffi-dev python3-gevent gunicorn git
 
 COPY env_update.sh /usr/bin/env_update
 
